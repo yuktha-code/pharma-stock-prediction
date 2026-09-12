@@ -6,7 +6,6 @@ A company-quarter machine-learning study of next-quarter stock-price direction i
 
 - `paper/` - Overleaf source, figures, tables and current paper PDF
 - `analysis/` - selected reconstruction and verification scripts
-- `docs/` - progress and validation documentation
 
 ## Status
 
