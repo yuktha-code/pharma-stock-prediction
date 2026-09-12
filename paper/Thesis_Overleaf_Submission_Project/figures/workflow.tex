@@ -1,0 +1,27 @@
+\begin{figure}[!htbp]
+\centering
+\begin{tikzpicture}[
+  node distance=2.5mm,
+  stage/.style={draw=black!65, line width=0.4pt,
+    text width=0.83\columnwidth, align=center,
+    inner xsep=4pt, inner ysep=4pt, font=\footnotesize},
+  flow/.style={-{Latex[length=1.6mm,width=1.1mm]},
+    draw=black!65, line width=0.45pt}
+]
+\node[stage] (raw) {Raw daily prices and financial statements};
+\node[stage, below=of raw] (lags) {Information-availability lags};
+\node[stage, below=of lags] (panel) {Company-quarter panel and target};
+\node[stage, below=of panel] (split) {Chronological train/validation/test split\\with boundary purge};
+\node[stage, below=of split] (preprocessing) {Training-only imputation, clipping and scaling};
+\node[stage, below=of preprocessing] (models) {Eight classifiers};
+\node[stage, below=of models] (evaluation) {Held-out metrics, confusion matrices and ROC-AUC};
+\draw[flow] (raw) -- (lags);
+\draw[flow] (lags) -- (panel);
+\draw[flow] (panel) -- (split);
+\draw[flow] (split) -- (preprocessing);
+\draw[flow] (preprocessing) -- (models);
+\draw[flow] (models) -- (evaluation);
+\end{tikzpicture}
+\caption{Implemented analytical workflow. Preprocessing is fitted on training observations and applied unchanged to validation and test data. Model selection uses validation balanced accuracy; held-out evaluation uses the saved decision rules.}
+\label{fig:workflow}
+\end{figure}

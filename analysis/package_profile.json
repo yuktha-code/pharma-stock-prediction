@@ -1,0 +1,2562 @@
+{
+  "saved_dataset_shape": [
+    3439,
+    25
+  ],
+  "date_range": [
+    "1962-03-31",
+    "2026-03-31"
+  ],
+  "companies": [
+    {
+      "company": "Biocon",
+      "market_sources": [
+        {
+          "path": "YUKTHA_CLEAN_2026-09-07\\01_INDIAN_COMPANIES\\Biocon\\02_MARKET_DATA\\Daily\\Biocon_daily.csv",
+          "rows": 3121,
+          "columns": [
+            "Date",
+            "Open",
+            "High",
+            "Low",
+            "Close",
+            "Adj_Close",
+            "Volume",
+            "Company",
+            "Ticker",
+            "Country"
+          ],
+          "first": [
+            {
+              "Date": "2014-01-01",
+              "Open": 77.20833587646484,
+              "High": 78.75,
+              "Low": 77.0250015258789,
+              "Close": 78.19999694824219,
+              "Adj_Close": 74.5063247680664,
+              "Volume": 6249720,
+              "Company": "Biocon",
+              "Ticker": "BIOCON.NS",
+              "Country": "India"
+            }
+          ],
+          "last": [
+            {
+              "Date": "2026-08-21",
+              "Open": 412.5,
+              "High": 416.0,
+              "Low": 411.0,
+              "Close": 415.5499877929688,
+              "Adj_Close": 415.5499877929688,
+              "Volume": 2225359,
+              "Company": "Biocon",
+              "Ticker": "BIOCON.NS",
+              "Country": "India"
+            }
+          ]
+        }
+      ],
+      "dataset_rows": 49
+    },
+    {
+      "company": "Aurobindo_Pharma",
+      "market_sources": [
+        {
+          "path": "YUKTHA_CLEAN_2026-09-07\\01_INDIAN_COMPANIES\\Aurobindo_Pharma\\02_MARKET_DATA\\Daily\\Aurobindo_Pharma_AUROPHARMA_NS_daily.csv",
+          "rows": 7688,
+          "columns": [
+            "Date",
+            "Open",
+            "High",
+            "Low",
+            "Close",
+            "Adj Close",
+            "Volume",
+            "Dividends",
+            "Stock Splits"
+          ],
+          "first": [
+            {
+              "Date": "1996-01-15 00:00:00+05:30",
+              "Open": 5.150000095367432,
+              "High": 5.150000095367432,
+              "Low": 5.150000095367432,
+              "Close": 5.150000095367432,
+              "Adj Close": 4.247047424316406,
+              "Volume": 2000,
+              "Dividends": 0.0,
+              "Stock Splits": 0.0
+            }
+          ],
+          "last": [
+            {
+              "Date": "2026-09-01 00:00:00+05:30",
+              "Open": 1700.0,
+              "High": 1700.0999755859375,
+              "Low": 1671.0999755859375,
+              "Close": 1683.300048828125,
+              "Adj Close": 1683.300048828125,
+              "Volume": 608683,
+              "Dividends": 0.0,
+              "Stock Splits": 0.0
+            }
+          ]
+        },
+        {
+          "path": "YUKTHA_CLEAN_2026-09-07\\01_INDIAN_COMPANIES\\Aurobindo_Pharma\\02_MARKET_DATA\\Daily\\Aurobindo_Pharma_daily.csv",
+          "rows": 3119,
+          "columns": [
+            "Date",
+            "Open",
+            "High",
+            "Low",
+            "Close",
+            "Adj_Close",
+            "Volume",
+            "Company",
+            "Country",
+            "Ticker"
+          ],
+          "first": [
+            {
+              "Date": "2013-12-31 18:30:00",
+              "Open": 196.75,
+              "High": 198.0,
+              "Low": 195.0,
+              "Close": 195.8500061035156,
+              "Adj_Close": 184.1307373046875,
+              "Volume": 3426500,
+              "Company": "Aurobindo Pharma",
+              "Country": "India",
+              "Ticker": "AUROPHARMA.NS"
+            }
+          ],
+          "last": [
+            {
+              "Date": "2026-08-19 18:30:00",
+              "Open": 1631.0,
+              "High": 1635.599975585938,
+              "Low": 1602.5,
+              "Close": NaN,
+              "Adj_Close": NaN,
+              "Volume": 805517,
+              "Company": "Aurobindo Pharma",
+              "Country": "India",
+              "Ticker": "AUROPHARMA.NS"
+            }
+          ]
+        }
+      ],
+      "dataset_rows": 121
+    },
+    {
+      "company": "Glenmark_Pharmaceuticals",
+      "market_sources": [
+        {
+          "path": "YUKTHA_CLEAN_2026-09-07\\01_INDIAN_COMPANIES\\Glenmark_Pharmaceuticals\\02_MARKET_DATA\\Daily\\Glenmark_Pharmaceuticals_daily.csv",
+          "rows": 3120,
+          "columns": [
+            "Date",
+            "Open",
+            "High",
+            "Low",
+            "Close",
+            "Adj_Close",
+            "Volume",
+            "Company",
+            "Country",
+            "Ticker"
+          ],
+          "first": [
+            {
+              "Date": "2013-12-31 18:30:00",
+              "Open": 534.0,
+              "High": 536.6500244140625,
+              "Low": 529.0,
+              "Close": 530.2000122070312,
+              "Adj_Close": 508.078125,
+              "Volume": 120384,
+              "Company": "Glenmark Pharmaceuticals",
+              "Country": "India",
+              "Ticker": "GLENMARK.NS"
+            }
+          ],
+          "last": [
+            {
+              "Date": "2026-08-19 18:30:00",
+              "Open": 2264.0,
+              "High": 2342.0,
+              "Low": 2252.10009765625,
+              "Close": NaN,
+              "Adj_Close": NaN,
+              "Volume": 552091,
+              "Company": "Glenmark Pharmaceuticals",
+              "Country": "India",
+              "Ticker": "GLENMARK.NS"
+            }
+          ]
+        },
+        {
+          "path": "YUKTHA_CLEAN_2026-09-07\\01_INDIAN_COMPANIES\\Glenmark_Pharmaceuticals\\02_MARKET_DATA\\Daily\\Glenmark_Pharmaceuticals_GLENMARK_NS_daily.csv",
+          "rows": 6006,
+          "columns": [
+            "Date",
+            "Open",
+            "High",
+            "Low",
+            "Close",
+            "Adj Close",
+            "Volume",
+            "Dividends",
+            "Stock Splits"
+          ],
+          "first": [
+            {
+              "Date": "2002-07-01 00:00:00+05:30",
+              "Open": 1.2949999570846558,
+              "High": 1.375,
+              "Low": 1.2949999570846558,
+              "Close": 1.372499942779541,
+              "Adj Close": 0.2940402626991272,
+              "Volume": 21640,
+              "Dividends": 0.0,
+              "Stock Splits": 0.0
+            }
+          ],
+          "last": [
+            {
+              "Date": "2026-09-01 00:00:00+05:30",
+              "Open": 2480.0,
+              "High": 2494.89990234375,
+              "Low": 2455.0,
+              "Close": 2470.39990234375,
+              "Adj Close": 2470.39990234375,
+              "Volume": 679495,
+              "Dividends": 0.0,
+              "Stock Splits": 0.0
+            }
+          ]
+        }
+      ],
+      "dataset_rows": 96
+    },
+    {
+      "company": "Sun_Pharmaceutical",
+      "market_sources": [
+        {
+          "path": "YUKTHA_CLEAN_2026-09-07\\01_INDIAN_COMPANIES\\Sun_Pharmaceutical\\02_MARKET_DATA\\Daily\\Sun_Pharmaceutical_daily.csv",
+          "rows": 3120,
+          "columns": [
+            "Date",
+            "Open",
+            "High",
+            "Low",
+            "Close",
+            "Adj_Close",
+            "Volume",
+            "Company",
+            "Country",
+            "Ticker"
+          ],
+          "first": [
+            {
+              "Date": "2013-12-31 18:30:00",
+              "Open": 568.25,
+              "High": 574.0,
+              "Low": 568.0999755859375,
+              "Close": 572.3499755859375,
+              "Adj_Close": 521.853759765625,
+              "Volume": 425464,
+              "Company": "Sun Pharmaceutical",
+              "Country": "India",
+              "Ticker": "SUNPHARMA.NS"
+            }
+          ],
+          "last": [
+            {
+              "Date": "2026-08-19 18:30:00",
+              "Open": 1905.0,
+              "High": 1911.599975585938,
+              "Low": 1890.300048828125,
+              "Close": NaN,
+              "Adj_Close": NaN,
+              "Volume": 893682,
+              "Company": "Sun Pharmaceutical",
+              "Country": "India",
+              "Ticker": "SUNPHARMA.NS"
+            }
+          ]
+        },
+        {
+          "path": "YUKTHA_CLEAN_2026-09-07\\01_INDIAN_COMPANIES\\Sun_Pharmaceutical\\02_MARKET_DATA\\Daily\\Sun_Pharmaceutical_SUNPHARMA_NS_daily.csv",
+          "rows": 7701,
+          "columns": [
+            "Date",
+            "Open",
+            "High",
+            "Low",
+            "Close",
+            "Adj Close",
+            "Volume",
+            "Dividends",
+            "Stock Splits"
+          ],
+          "first": [
+            {
+              "Date": "1996-01-01 00:00:00+05:30",
+              "Open": 1.812932014465332,
+              "High": 1.80479896068573,
+              "Low": 1.8032499551773071,
+              "Close": 1.8032499551773071,
+              "Adj Close": 1.384446144104004,
+              "Volume": 38730,
+              "Dividends": 0.0,
+              "Stock Splits": 0.0
+            }
+          ],
+          "last": [
+            {
+              "Date": "2026-09-01 00:00:00+05:30",
+              "Open": 1963.0999755859373,
+              "High": 1963.0999755859373,
+              "Low": 1921.0999755859373,
+              "Close": 1929.0,
+              "Adj Close": 1929.0,
+              "Volume": 3595216,
+              "Dividends": 0.0,
+              "Stock Splits": 0.0
+            }
+          ]
+        }
+      ],
+      "dataset_rows": 122
+    },
+    {
+      "company": "Torrent_Pharmaceuticals",
+      "market_sources": [
+        {
+          "path": "YUKTHA_CLEAN_2026-09-07\\01_INDIAN_COMPANIES\\Torrent_Pharmaceuticals\\02_MARKET_DATA\\Daily\\Torrent_Pharmaceuticals_daily.csv",
+          "rows": 3120,
+          "columns": [
+            "Date",
+            "Open",
+            "High",
+            "Low",
+            "Close",
+            "Adj_Close",
+            "Volume",
+            "Company",
+            "Country",
+            "Ticker"
+          ],
+          "first": [
+            {
+              "Date": "2013-12-31 18:30:00",
+              "Open": 236.0249938964844,
+              "High": 238.8500061035156,
+              "Low": 234.3000030517578,
+              "Close": 234.9750061035156,
+              "Adj_Close": 197.6517181396484,
+              "Volume": 135128,
+              "Company": "Torrent Pharmaceuticals",
+              "Country": "India",
+              "Ticker": "TORNTPHARM.NS"
+            }
+          ],
+          "last": [
+            {
+              "Date": "2026-08-19 18:30:00",
+              "Open": 5044.5,
+              "High": 5044.5,
+              "Low": 4964.5,
+              "Close": NaN,
+              "Adj_Close": NaN,
+              "Volume": 244561,
+              "Company": "Torrent Pharmaceuticals",
+              "Country": "India",
+              "Ticker": "TORNTPHARM.NS"
+            }
+          ]
+        },
+        {
+          "path": "YUKTHA_CLEAN_2026-09-07\\01_INDIAN_COMPANIES\\Torrent_Pharmaceuticals\\02_MARKET_DATA\\Daily\\Torrent_Pharmaceuticals_TORNTPHARM_NS_daily.csv",
+          "rows": 6006,
+          "columns": [
+            "Date",
+            "Open",
+            "High",
+            "Low",
+            "Close",
+            "Adj Close",
+            "Volume",
+            "Dividends",
+            "Stock Splits"
+          ],
+          "first": [
+            {
+              "Date": "2002-07-01 00:00:00+05:30",
+              "Open": 12.625,
+              "High": 12.75,
+              "Low": 12.3125,
+              "Close": 12.332500457763672,
+              "Adj Close": 8.308412551879883,
+              "Volume": 32160,
+              "Dividends": 0.0,
+              "Stock Splits": 0.0
+            }
+          ],
+          "last": [
+            {
+              "Date": "2026-09-01 00:00:00+05:30",
+              "Open": 4973.5,
+              "High": 4987.5,
+              "Low": 4919.5,
+              "Close": 4965.5,
+              "Adj Close": 4965.5,
+              "Volume": 204661,
+              "Dividends": 0.0,
+              "Stock Splits": 0.0
+            }
+          ]
+        }
+      ],
+      "dataset_rows": 96
+    },
+    {
+      "company": "Alembic_Pharmaceuticals",
+      "market_sources": [
+        {
+          "path": "YUKTHA_CLEAN_2026-09-07\\01_INDIAN_COMPANIES\\Alembic_Pharmaceuticals\\02_MARKET_DATA\\Daily\\Alembic_Pharmaceuticals_APLLTD_NS_daily.csv",
+          "rows": 3689,
+          "columns": [
+            "Date",
+            "Open",
+            "High",
+            "Low",
+            "Close",
+            "Adj Close",
+            "Volume",
+            "Dividends",
+            "Stock Splits"
+          ],
+          "first": [
+            {
+              "Date": "2011-09-20 00:00:00+05:30",
+              "Open": 52.79999923706055,
+              "High": 52.79999923706055,
+              "Low": 43.5,
+              "Close": 45.59999847412109,
+              "Adj Close": 37.99950408935547,
+              "Volume": 292260,
+              "Dividends": 0.0,
+              "Stock Splits": 0.0
+            }
+          ],
+          "last": [
+            {
+              "Date": "2026-09-01 00:00:00+05:30",
+              "Open": 835.0,
+              "High": 847.8499755859375,
+              "Low": 825.5499877929688,
+              "Close": 843.8499755859375,
+              "Adj Close": 843.8499755859375,
+              "Volume": 114419,
+              "Dividends": 0.0,
+              "Stock Splits": 0.0
+            }
+          ]
+        },
+        {
+          "path": "YUKTHA_CLEAN_2026-09-07\\01_INDIAN_COMPANIES\\Alembic_Pharmaceuticals\\02_MARKET_DATA\\Daily\\Alembic_Pharmaceuticals_daily.csv",
+          "rows": 3120,
+          "columns": [
+            "Date",
+            "Open",
+            "High",
+            "Low",
+            "Close",
+            "Adj_Close",
+            "Volume",
+            "Company",
+            "Country",
+            "Ticker"
+          ],
+          "first": [
+            {
+              "Date": "2013-12-31 18:30:00",
+              "Open": 211.0,
+              "High": 215.0,
+              "Low": 211.0,
+              "Close": 214.1999969482422,
+              "Adj_Close": 185.8064575195312,
+              "Volume": 50680,
+              "Company": "Alembic Pharmaceuticals",
+              "Country": "India",
+              "Ticker": "ALEMBICPHARM.NS"
+            }
+          ],
+          "last": [
+            {
+              "Date": "2026-08-19 18:30:00",
+              "Open": 817.9000244140625,
+              "High": 826.4500122070312,
+              "Low": 810.0499877929688,
+              "Close": NaN,
+              "Adj_Close": NaN,
+              "Volume": 47551,
+              "Company": "Alembic Pharmaceuticals",
+              "Country": "India",
+              "Ticker": "ALEMBICPHARM.NS"
+            }
+          ]
+        }
+      ],
+      "dataset_rows": 59
+    },
+    {
+      "company": "Natco_Pharma",
+      "market_sources": [
+        {
+          "path": "YUKTHA_CLEAN_2026-09-07\\01_INDIAN_COMPANIES\\Natco_Pharma\\02_MARKET_DATA\\Daily\\Natco_Pharma_daily.csv",
+          "rows": 3120,
+          "columns": [
+            "Date",
+            "Open",
+            "High",
+            "Low",
+            "Close",
+            "Adj_Close",
+            "Volume",
+            "Company",
+            "Country",
+            "Ticker"
+          ],
+          "first": [
+            {
+              "Date": "2013-12-31 18:30:00",
+              "Open": 160.3999938964844,
+              "High": 165.9600067138672,
+              "Low": 160.3999938964844,
+              "Close": 162.0700073242188,
+              "Adj_Close": 147.0886383056641,
+              "Volume": 201355,
+              "Company": "Natco Pharma",
+              "Country": "India",
+              "Ticker": "NATCOPHARM.NS"
+            }
+          ],
+          "last": [
+            {
+              "Date": "2026-08-19 18:30:00",
+              "Open": 890.5,
+              "High": 895.3499755859375,
+              "Low": 874.5499877929688,
+              "Close": NaN,
+              "Adj_Close": NaN,
+              "Volume": 275977,
+              "Company": "Natco Pharma",
+              "Country": "India",
+              "Ticker": "NATCOPHARM.NS"
+            }
+          ]
+        },
+        {
+          "path": "YUKTHA_CLEAN_2026-09-07\\01_INDIAN_COMPANIES\\Natco_Pharma\\02_MARKET_DATA\\Daily\\Natco_Pharma_NATCOPHARM_NS_daily.csv",
+          "rows": 7699,
+          "columns": [
+            "Date",
+            "Open",
+            "High",
+            "Low",
+            "Close",
+            "Adj Close",
+            "Volume",
+            "Dividends",
+            "Stock Splits"
+          ],
+          "first": [
+            {
+              "Date": "1996-01-01 00:00:00+05:30",
+              "Open": 17.799999237060547,
+              "High": 17.799999237060547,
+              "Low": 17.799999237060547,
+              "Close": 17.799999237060547,
+              "Adj Close": 14.284283638000488,
+              "Volume": 500,
+              "Dividends": 0.0,
+              "Stock Splits": 0.0
+            }
+          ],
+          "last": [
+            {
+              "Date": "2026-09-01 00:00:00+05:30",
+              "Open": 841.5,
+              "High": 853.75,
+              "Low": 837.4000244140625,
+              "Close": 849.2000122070312,
+              "Adj Close": 849.2000122070312,
+              "Volume": 241422,
+              "Dividends": 0.0,
+              "Stock Splits": 0.0
+            }
+          ]
+        }
+      ],
+      "dataset_rows": 122
+    },
+    {
+      "company": "Ajanta_Pharma",
+      "market_sources": [
+        {
+          "path": "YUKTHA_CLEAN_2026-09-07\\01_INDIAN_COMPANIES\\Ajanta_Pharma\\02_MARKET_DATA\\Daily\\Ajanta_Pharma_AJANTPHARM_NS_daily.csv",
+          "rows": 6002,
+          "columns": [
+            "Date",
+            "Open",
+            "High",
+            "Low",
+            "Close",
+            "Adj Close",
+            "Volume",
+            "Dividends",
+            "Stock Splits"
+          ],
+          "first": [
+            {
+              "Date": "2002-07-01 00:00:00+05:30",
+              "Open": 4.533332824707031,
+              "High": 4.533332824707031,
+              "Low": 4.426665782928467,
+              "Close": 4.440000057220459,
+              "Adj Close": 3.263513565063477,
+              "Volume": 121668,
+              "Dividends": 0.0,
+              "Stock Splits": 0.0
+            }
+          ],
+          "last": [
+            {
+              "Date": "2026-09-01 00:00:00+05:30",
+              "Open": 3623.0,
+              "High": 3630.699951171875,
+              "Low": 3467.0,
+              "Close": 3504.800048828125,
+              "Adj Close": 3504.800048828125,
+              "Volume": 87572,
+              "Dividends": 0.0,
+              "Stock Splits": 0.0
+            }
+          ]
+        },
+        {
+          "path": "YUKTHA_CLEAN_2026-09-07\\01_INDIAN_COMPANIES\\Ajanta_Pharma\\02_MARKET_DATA\\Daily\\Ajanta_Pharma_daily.csv",
+          "rows": 2981,
+          "columns": [
+            "Date",
+            "Open",
+            "High",
+            "Low",
+            "Close",
+            "Volume",
+            "Company",
+            "Country",
+            "Ticker"
+          ],
+          "first": [
+            {
+              "Date": "2014-08-01",
+              "Open": 385.51,
+              "High": 408.52,
+              "Low": 374.91,
+              "Close": 403.48,
+              "Volume": 219000,
+              "Company": "Ajanta Pharma",
+              "Country": "India",
+              "Ticker": "AJANTPHARM.NS"
+            }
+          ],
+          "last": [
+            {
+              "Date": "2026-08-19",
+              "Open": 3706.4,
+              "High": 3782.7,
+              "Low": 3665.55,
+              "Close": 3690.0,
+              "Volume": 88309,
+              "Company": "Ajanta Pharma",
+              "Country": "India",
+              "Ticker": "AJANTPHARM.NS"
+            }
+          ]
+        }
+      ],
+      "dataset_rows": 95
+    },
+    {
+      "company": "Marksans_Pharma",
+      "market_sources": [
+        {
+          "path": "YUKTHA_CLEAN_2026-09-07\\01_INDIAN_COMPANIES\\Marksans_Pharma\\02_MARKET_DATA\\Daily\\Marksans_Pharma_daily.csv",
+          "rows": 2981,
+          "columns": [
+            "Date",
+            "Open",
+            "High",
+            "Low",
+            "Close",
+            "Volume",
+            "Company",
+            "Country",
+            "Ticker"
+          ],
+          "first": [
+            {
+              "Date": "2014-08-01",
+              "Open": 31.02,
+              "High": 32.33,
+              "Low": 31.02,
+              "Close": 31.5,
+              "Volume": 1790479,
+              "Company": "Marksans Pharma",
+              "Country": "India",
+              "Ticker": "MARKSANS.NS"
+            }
+          ],
+          "last": [
+            {
+              "Date": "2026-08-19",
+              "Open": 329.55,
+              "High": 335.3,
+              "Low": 323.25,
+              "Close": 327.0,
+              "Volume": 2723252,
+              "Company": "Marksans Pharma",
+              "Country": "India",
+              "Ticker": "MARKSANS.NS"
+            }
+          ]
+        },
+        {
+          "path": "YUKTHA_CLEAN_2026-09-07\\01_INDIAN_COMPANIES\\Marksans_Pharma\\02_MARKET_DATA\\Daily\\Marksans_Pharma_MARKSANS_NS_daily.csv",
+          "rows": 5989,
+          "columns": [
+            "Date",
+            "Open",
+            "High",
+            "Low",
+            "Close",
+            "Adj Close",
+            "Volume",
+            "Dividends",
+            "Stock Splits"
+          ],
+          "first": [
+            {
+              "Date": "2002-07-19 00:00:00+05:30",
+              "Open": 2.400000095367432,
+              "High": 2.400000095367432,
+              "Low": 2.400000095367432,
+              "Close": 2.400000095367432,
+              "Adj Close": 2.316477537155152,
+              "Volume": 100,
+              "Dividends": 0.0,
+              "Stock Splits": 0.0
+            }
+          ],
+          "last": [
+            {
+              "Date": "2026-09-01 00:00:00+05:30",
+              "Open": 322.8999938964844,
+              "High": 324.70001220703125,
+              "Low": 315.5,
+              "Close": 322.3999938964844,
+              "Adj Close": 322.3999938964844,
+              "Volume": 1408813,
+              "Dividends": 0.0,
+              "Stock Splits": 0.0
+            }
+          ]
+        }
+      ],
+      "dataset_rows": 95
+    },
+    {
+      "company": "Strides_Pharma_Science",
+      "market_sources": [
+        {
+          "path": "YUKTHA_CLEAN_2026-09-07\\01_INDIAN_COMPANIES\\Strides_Pharma_Science\\02_MARKET_DATA\\Daily\\Strides_Pharma_Science_daily.csv",
+          "rows": 2981,
+          "columns": [
+            "Date",
+            "Open",
+            "High",
+            "Low",
+            "Close",
+            "Volume",
+            "Company",
+            "Country",
+            "Ticker"
+          ],
+          "first": [
+            {
+              "Date": "2014-08-01",
+              "Open": 265.68,
+              "High": 271.0,
+              "Low": 264.95,
+              "Close": 266.92,
+              "Volume": 118912,
+              "Company": "Strides Pharma Science",
+              "Country": "India",
+              "Ticker": "STAR.NS"
+            }
+          ],
+          "last": [
+            {
+              "Date": "2026-08-19",
+              "Open": 950.0,
+              "High": 965.0,
+              "Low": 931.25,
+              "Close": 957.5,
+              "Volume": 364554,
+              "Company": "Strides Pharma Science",
+              "Country": "India",
+              "Ticker": "STAR.NS"
+            }
+          ]
+        },
+        {
+          "path": "YUKTHA_CLEAN_2026-09-07\\01_INDIAN_COMPANIES\\Strides_Pharma_Science\\02_MARKET_DATA\\Daily\\Strides_Pharma_Science_STAR_NS_daily.csv",
+          "rows": 6009,
+          "columns": [
+            "Date",
+            "Open",
+            "High",
+            "Low",
+            "Close",
+            "Adj Close",
+            "Volume",
+            "Dividends",
+            "Stock Splits"
+          ],
+          "first": [
+            {
+              "Date": "2002-06-26 00:00:00+05:30",
+              "Open": 69.5,
+              "High": 69.5,
+              "Low": 66.8499984741211,
+              "Close": 67.30000305175781,
+              "Adj Close": 20.50080299377441,
+              "Volume": 14936,
+              "Dividends": 0.0,
+              "Stock Splits": 0.0
+            }
+          ],
+          "last": [
+            {
+              "Date": "2026-09-01 00:00:00+05:30",
+              "Open": 1025.0,
+              "High": 1030.0,
+              "Low": 1010.0,
+              "Close": 1024.199951171875,
+              "Adj Close": 1024.199951171875,
+              "Volume": 200340,
+              "Dividends": 0.0,
+              "Stock Splits": 0.0
+            }
+          ]
+        }
+      ],
+      "dataset_rows": 96
+    },
+    {
+      "company": "Cipla",
+      "market_sources": [
+        {
+          "path": "YUKTHA_CLEAN_2026-09-07\\01_INDIAN_COMPANIES\\Cipla\\02_MARKET_DATA\\Daily\\Cipla_CIPLA_NS_daily.csv",
+          "rows": 7700,
+          "columns": [
+            "Date",
+            "Open",
+            "High",
+            "Low",
+            "Close",
+            "Adj Close",
+            "Volume",
+            "Dividends",
+            "Stock Splits"
+          ],
+          "first": [
+            {
+              "Date": "1996-01-01 00:00:00+05:30",
+              "Open": 8.778665542602539,
+              "High": 8.833333015441895,
+              "Low": 8.773332595825195,
+              "Close": 8.831999778747559,
+              "Adj Close": 7.161149978637695,
+              "Volume": 208125,
+              "Dividends": 0.0,
+              "Stock Splits": 0.0
+            }
+          ],
+          "last": [
+            {
+              "Date": "2026-09-01 00:00:00+05:30",
+              "Open": 1420.9000244140625,
+              "High": 1425.699951171875,
+              "Low": 1406.5,
+              "Close": 1423.0,
+              "Adj Close": 1423.0,
+              "Volume": 880086,
+              "Dividends": 0.0,
+              "Stock Splits": 0.0
+            }
+          ]
+        },
+        {
+          "path": "YUKTHA_CLEAN_2026-09-07\\01_INDIAN_COMPANIES\\Cipla\\02_MARKET_DATA\\Daily\\Cipla_daily.csv",
+          "rows": 3120,
+          "columns": [
+            "Date",
+            "Open",
+            "High",
+            "Low",
+            "Close",
+            "Adj_Close",
+            "Volume",
+            "Company",
+            "Country",
+            "Ticker"
+          ],
+          "first": [
+            {
+              "Date": "2013-12-31 18:30:00",
+              "Open": 402.5,
+              "High": 405.8999938964844,
+              "Low": 400.7999877929688,
+              "Close": 401.75,
+              "Adj_Close": 370.0361022949219,
+              "Volume": 429074,
+              "Company": "Cipla",
+              "Country": "India",
+              "Ticker": "CIPLA.NS"
+            }
+          ],
+          "last": [
+            {
+              "Date": "2026-08-19 18:30:00",
+              "Open": 1430.0,
+              "High": 1439.400024414062,
+              "Low": 1427.5,
+              "Close": NaN,
+              "Adj_Close": NaN,
+              "Volume": 327737,
+              "Company": "Cipla",
+              "Country": "India",
+              "Ticker": "CIPLA.NS"
+            }
+          ]
+        }
+      ],
+      "dataset_rows": 122
+    },
+    {
+      "company": "Jubilant_Pharmova",
+      "market_sources": [
+        {
+          "path": "YUKTHA_CLEAN_2026-09-07\\01_INDIAN_COMPANIES\\Jubilant_Pharmova\\02_MARKET_DATA\\Daily\\Jubilant_Pharmova_daily.csv",
+          "rows": 3119,
+          "columns": [
+            "Date",
+            "Open",
+            "High",
+            "Low",
+            "Close",
+            "Adj_Close",
+            "Volume",
+            "Company",
+            "Country",
+            "Ticker"
+          ],
+          "first": [
+            {
+              "Date": "2013-12-31 18:30:00",
+              "Open": 100.9339981079102,
+              "High": 104.6861877441406,
+              "Low": 100.6338195800781,
+              "Close": 102.2097396850586,
+              "Adj_Close": 89.78003692626953,
+              "Volume": 84827,
+              "Company": "Jubilant Pharmova",
+              "Country": "India",
+              "Ticker": "JUBLPHARMA.NS"
+            }
+          ],
+          "last": [
+            {
+              "Date": "2026-08-19 18:30:00",
+              "Open": 871.0,
+              "High": 886.3499755859375,
+              "Low": 863.8499755859375,
+              "Close": NaN,
+              "Adj_Close": NaN,
+              "Volume": 181292,
+              "Company": "Jubilant Pharmova",
+              "Country": "India",
+              "Ticker": "JUBLPHARMA.NS"
+            }
+          ]
+        },
+        {
+          "path": "YUKTHA_CLEAN_2026-09-07\\01_INDIAN_COMPANIES\\Jubilant_Pharmova\\02_MARKET_DATA\\Daily\\Jubilant_Pharmova_JUBLPHARMA_NS_daily.csv",
+          "rows": 6005,
+          "columns": [
+            "Date",
+            "Open",
+            "High",
+            "Low",
+            "Close",
+            "Adj Close",
+            "Volume",
+            "Dividends",
+            "Stock Splits"
+          ],
+          "first": [
+            {
+              "Date": "2002-07-01 00:00:00+05:30",
+              "Open": 1.6624000072479248,
+              "High": 1.6981350183486938,
+              "Low": 1.6523940563201904,
+              "Close": 1.6981350183486938,
+              "Adj Close": 1.0377051830291748,
+              "Volume": 15831,
+              "Dividends": 0.0,
+              "Stock Splits": 0.0
+            }
+          ],
+          "last": [
+            {
+              "Date": "2026-09-01 00:00:00+05:30",
+              "Open": 882.0,
+              "High": 914.75,
+              "Low": 873.5999755859375,
+              "Close": 907.5999755859376,
+              "Adj Close": 907.5999755859376,
+              "Volume": 313369,
+              "Dividends": 0.0,
+              "Stock Splits": 0.0
+            }
+          ]
+        }
+      ],
+      "dataset_rows": 96
+    },
+    {
+      "company": "Lupin",
+      "market_sources": [
+        {
+          "path": "YUKTHA_CLEAN_2026-09-07\\01_INDIAN_COMPANIES\\Lupin\\02_MARKET_DATA\\Daily\\Lupin_daily.csv",
+          "rows": 3120,
+          "columns": [
+            "Date",
+            "Open",
+            "High",
+            "Low",
+            "Close",
+            "Adj_Close",
+            "Volume",
+            "Company",
+            "Country",
+            "Ticker"
+          ],
+          "first": [
+            {
+              "Date": "2013-12-31 18:30:00",
+              "Open": 916.5,
+              "High": 925.9000244140624,
+              "Low": 911.0,
+              "Close": 916.5,
+              "Adj_Close": 851.1141967773438,
+              "Volume": 520076,
+              "Company": "Lupin",
+              "Country": "India",
+              "Ticker": "LUPIN.NS"
+            }
+          ],
+          "last": [
+            {
+              "Date": "2026-08-19 18:30:00",
+              "Open": 2228.300048828125,
+              "High": 2237.699951171875,
+              "Low": 2201.5,
+              "Close": NaN,
+              "Adj_Close": NaN,
+              "Volume": 531705,
+              "Company": "Lupin",
+              "Country": "India",
+              "Ticker": "LUPIN.NS"
+            }
+          ]
+        },
+        {
+          "path": "YUKTHA_CLEAN_2026-09-07\\01_INDIAN_COMPANIES\\Lupin\\02_MARKET_DATA\\Daily\\Lupin_LUPIN_NS_daily.csv",
+          "rows": 6214,
+          "columns": [
+            "Date",
+            "Open",
+            "High",
+            "Low",
+            "Close",
+            "Adj Close",
+            "Volume",
+            "Dividends",
+            "Stock Splits"
+          ],
+          "first": [
+            {
+              "Date": "2001-09-10 00:00:00+05:30",
+              "Open": 7.5,
+              "High": 8.430000305175781,
+              "Low": 7.25,
+              "Close": 8.055000305175781,
+              "Adj Close": 6.447420120239258,
+              "Volume": 320210,
+              "Dividends": 0.0,
+              "Stock Splits": 0.0
+            }
+          ],
+          "last": [
+            {
+              "Date": "2026-09-01 00:00:00+05:30",
+              "Open": 2190.199951171875,
+              "High": 2190.199951171875,
+              "Low": 2137.60009765625,
+              "Close": 2153.0,
+              "Adj Close": 2153.0,
+              "Volume": 1297780,
+              "Dividends": 0.0,
+              "Stock Splits": 0.0
+            }
+          ]
+        }
+      ],
+      "dataset_rows": 99
+    },
+    {
+      "company": "Zydus_Lifesciences",
+      "market_sources": [
+        {
+          "path": "YUKTHA_CLEAN_2026-09-07\\01_INDIAN_COMPANIES\\Zydus_Lifesciences\\02_MARKET_DATA\\Daily\\Zydus_Lifesciences_daily.csv",
+          "rows": 3120,
+          "columns": [
+            "Date",
+            "Open",
+            "High",
+            "Low",
+            "Close",
+            "Adj_Close",
+            "Volume",
+            "Company",
+            "Country",
+            "Ticker"
+          ],
+          "first": [
+            {
+              "Date": "2013-12-31 18:30:00",
+              "Open": 163.5,
+              "High": 166.0,
+              "Low": 158.2400054931641,
+              "Close": 159.75,
+              "Adj_Close": 143.7991027832031,
+              "Volume": 508210,
+              "Company": "Zydus Lifesciences",
+              "Country": "India",
+              "Ticker": "ZYDUSLIFE.NS"
+            }
+          ],
+          "last": [
+            {
+              "Date": "2026-08-19 18:30:00",
+              "Open": 1117.0,
+              "High": 1124.0,
+              "Low": 1105.800048828125,
+              "Close": NaN,
+              "Adj_Close": NaN,
+              "Volume": 987889,
+              "Company": "Zydus Lifesciences",
+              "Country": "India",
+              "Ticker": "ZYDUSLIFE.NS"
+            }
+          ]
+        },
+        {
+          "path": "YUKTHA_CLEAN_2026-09-07\\01_INDIAN_COMPANIES\\Zydus_Lifesciences\\02_MARKET_DATA\\Daily\\Zydus_Lifesciences_ZYDUSLIFE_NS_daily.csv",
+          "rows": 6573,
+          "columns": [
+            "Date",
+            "Open",
+            "High",
+            "Low",
+            "Close",
+            "Adj Close",
+            "Volume",
+            "Dividends",
+            "Stock Splits"
+          ],
+          "first": [
+            {
+              "Date": "2000-04-27 00:00:00+05:30",
+              "Open": 21.00718307495117,
+              "High": 22.113149642944336,
+              "Low": 15.644171714782717,
+              "Close": 16.08285140991211,
+              "Adj Close": 11.717744827270508,
+              "Volume": 6429467,
+              "Dividends": 0.0,
+              "Stock Splits": 0.0
+            }
+          ],
+          "last": [
+            {
+              "Date": "2026-09-01 00:00:00+05:30",
+              "Open": 1167.300048828125,
+              "High": 1183.0,
+              "Low": 1152.0,
+              "Close": 1167.800048828125,
+              "Adj Close": 1167.800048828125,
+              "Volume": 1070386,
+              "Dividends": 0.0,
+              "Stock Splits": 0.0
+            }
+          ]
+        }
+      ],
+      "dataset_rows": 104
+    },
+    {
+      "company": "Zenotech_Laboratories",
+      "market_sources": [
+        {
+          "path": "YUKTHA_CLEAN_2026-09-07\\01_INDIAN_COMPANIES\\Zenotech_Laboratories\\02_MARKET_DATA\\Daily\\Zenotech_Laboratories_ZENOTECH_BO_daily.csv",
+          "rows": 5567,
+          "columns": [
+            "Date",
+            "Open",
+            "High",
+            "Low",
+            "Close",
+            "Adj Close",
+            "Volume",
+            "Dividends",
+            "Stock Splits"
+          ],
+          "first": [
+            {
+              "Date": "2004-03-01 00:00:00+05:30",
+              "Open": 3.9862000942230233,
+              "High": 3.9862000942230233,
+              "Low": 3.9862000942230233,
+              "Close": 3.9862000942230233,
+              "Adj Close": 3.9862000942230233,
+              "Volume": 105,
+              "Dividends": 0.0,
+              "Stock Splits": 0.0
+            }
+          ],
+          "last": [
+            {
+              "Date": "2026-09-01 00:00:00+05:30",
+              "Open": 45.369998931884766,
+              "High": 47.470001220703125,
+              "Low": 45.369998931884766,
+              "Close": 46.400001525878906,
+              "Adj Close": 46.400001525878906,
+              "Volume": 2395,
+              "Dividends": 0.0,
+              "Stock Splits": 0.0
+            }
+          ]
+        }
+      ],
+      "dataset_rows": 89
+    },
+    {
+      "company": "Amgen",
+      "market_sources": [
+        {
+          "path": "YUKTHA_CLEAN_2026-09-07\\02_NON_INDIAN_COMPANIES\\Amgen\\02_MARKET_DATA\\Daily\\Amgen_AMGN_daily.csv",
+          "rows": 10885,
+          "columns": [
+            "Date",
+            "Open",
+            "High",
+            "Low",
+            "Close",
+            "Adj Close",
+            "Volume",
+            "Dividends",
+            "Stock Splits"
+          ],
+          "first": [
+            {
+              "Date": "1983-06-17 00:00:00-04:00",
+              "Open": 0.34375,
+              "High": 0.3489579856395721,
+              "Low": 0.34375,
+              "Close": 0.34375,
+              "Adj Close": 0.2294251024723053,
+              "Volume": 42936000,
+              "Dividends": 0.0,
+              "Stock Splits": 0.0
+            }
+          ],
+          "last": [
+            {
+              "Date": "2026-08-31 00:00:00-04:00",
+              "Open": 428.5899963378906,
+              "High": 431.8500061035156,
+              "Low": 426.0,
+              "Close": 429.8800048828125,
+              "Adj Close": 429.8800048828125,
+              "Volume": 2339500,
+              "Dividends": 0.0,
+              "Stock Splits": 0.0
+            }
+          ]
+        },
+        {
+          "path": "YUKTHA_CLEAN_2026-09-07\\02_NON_INDIAN_COMPANIES\\Amgen\\02_MARKET_DATA\\Daily\\Amgen_daily.csv",
+          "rows": 3177,
+          "columns": [
+            "Date",
+            "Open",
+            "High",
+            "Low",
+            "Close",
+            "Adj_Close",
+            "Volume",
+            "Company",
+            "Country",
+            "Ticker"
+          ],
+          "first": [
+            {
+              "Date": "2014-01-02 05:00:00",
+              "Open": 114.3600006103516,
+              "High": 116.1900024414062,
+              "Low": 114.0599975585938,
+              "Close": 115.8000030517578,
+              "Adj_Close": 81.5423355102539,
+              "Volume": 2528800,
+              "Company": "Amgen",
+              "Country": "United States",
+              "Ticker": "AMGN"
+            }
+          ],
+          "last": [
+            {
+              "Date": "2026-08-20 04:00:00",
+              "Open": 435.8399963378906,
+              "High": 441.0199890136719,
+              "Low": 431.4609985351562,
+              "Close": 433.375,
+              "Adj_Close": 433.375,
+              "Volume": 1317696,
+              "Company": "Amgen",
+              "Country": "United States",
+              "Ticker": "AMGN"
+            }
+          ]
+        }
+      ],
+      "dataset_rows": 172
+    },
+    {
+      "company": "Biogen",
+      "market_sources": [
+        {
+          "path": "YUKTHA_CLEAN_2026-09-07\\02_NON_INDIAN_COMPANIES\\Biogen\\02_MARKET_DATA\\Daily\\Biogen_BIIB_daily.csv",
+          "rows": 8800,
+          "columns": [
+            "Date",
+            "Open",
+            "High",
+            "Low",
+            "Close",
+            "Adj Close",
+            "Volume",
+            "Dividends",
+            "Stock Splits"
+          ],
+          "first": [
+            {
+              "Date": "1991-09-17 00:00:00-04:00",
+              "Open": 3.0,
+              "High": 3.25,
+              "Low": 3.0,
+              "Close": 3.125,
+              "Adj Close": 3.125,
+              "Volume": 17096400,
+              "Dividends": 0.0,
+              "Stock Splits": 0.0
+            }
+          ],
+          "last": [
+            {
+              "Date": "2026-08-31 00:00:00-04:00",
+              "Open": 216.47000122070312,
+              "High": 218.88999938964844,
+              "Low": 213.5800018310547,
+              "Close": 216.6499938964844,
+              "Adj Close": 216.6499938964844,
+              "Volume": 831000,
+              "Dividends": 0.0,
+              "Stock Splits": 0.0
+            }
+          ]
+        },
+        {
+          "path": "YUKTHA_CLEAN_2026-09-07\\02_NON_INDIAN_COMPANIES\\Biogen\\02_MARKET_DATA\\Daily\\Biogen_daily.csv",
+          "rows": 3178,
+          "columns": [
+            "Date",
+            "Open",
+            "High",
+            "Low",
+            "Close",
+            "Adj_Close",
+            "Volume",
+            "Company",
+            "Ticker",
+            "Country"
+          ],
+          "first": [
+            {
+              "Date": "2014-01-02",
+              "Open": 279.4400024414062,
+              "High": 282.5199890136719,
+              "Low": 276.2099914550781,
+              "Close": 280.3299865722656,
+              "Adj_Close": 280.3299865722656,
+              "Volume": 902200,
+              "Company": "Biogen",
+              "Ticker": "BIIB",
+              "Country": "USA"
+            }
+          ],
+          "last": [
+            {
+              "Date": "2026-08-21",
+              "Open": 217.7599945068359,
+              "High": 219.1199951171875,
+              "Low": 215.0,
+              "Close": 216.7799987792969,
+              "Adj_Close": 216.7799987792969,
+              "Volume": 722300,
+              "Company": "Biogen",
+              "Ticker": "BIIB",
+              "Country": "USA"
+            }
+          ]
+        }
+      ],
+      "dataset_rows": 139
+    },
+    {
+      "company": "Teva_Pharmaceutical",
+      "market_sources": [
+        {
+          "path": "YUKTHA_CLEAN_2026-09-07\\02_NON_INDIAN_COMPANIES\\Teva_Pharmaceutical\\02_MARKET_DATA\\Daily\\Teva_Pharmaceutical_daily.csv",
+          "rows": 3177,
+          "columns": [
+            "Date",
+            "Open",
+            "High",
+            "Low",
+            "Close",
+            "Adj_Close",
+            "Volume",
+            "Company",
+            "Country",
+            "Ticker"
+          ],
+          "first": [
+            {
+              "Date": "2014-01-02 05:00:00",
+              "Open": 40.02000045776367,
+              "High": 40.4900016784668,
+              "Low": 39.79999923706055,
+              "Close": 40.2599983215332,
+              "Adj_Close": 36.05304718017578,
+              "Volume": 4325700,
+              "Company": "Teva Pharmaceutical",
+              "Country": "Israel",
+              "Ticker": "TEVA"
+            }
+          ],
+          "last": [
+            {
+              "Date": "2026-08-20 04:00:00",
+              "Open": 37.11999893188477,
+              "High": 37.34500122070312,
+              "Low": 36.83000183105469,
+              "Close": 37.01900100708008,
+              "Adj_Close": 37.01900100708008,
+              "Volume": 2531538,
+              "Company": "Teva Pharmaceutical",
+              "Country": "Israel",
+              "Ticker": "TEVA"
+            }
+          ]
+        },
+        {
+          "path": "YUKTHA_CLEAN_2026-09-07\\02_NON_INDIAN_COMPANIES\\Teva_Pharmaceutical\\02_MARKET_DATA\\Daily\\Teva_Pharmaceutical_TEVA_daily.csv",
+          "rows": 11224,
+          "columns": [
+            "Date",
+            "Open",
+            "High",
+            "Low",
+            "Close",
+            "Adj Close",
+            "Volume",
+            "Dividends",
+            "Stock Splits"
+          ],
+          "first": [
+            {
+              "Date": "1982-02-16 00:00:00-05:00",
+              "Open": 0.90625,
+              "High": 0.953125,
+              "Low": 0.90625,
+              "Close": 0.90625,
+              "Adj Close": 0.6069058179855347,
+              "Volume": 113600,
+              "Dividends": 0.0,
+              "Stock Splits": 0.0
+            }
+          ],
+          "last": [
+            {
+              "Date": "2026-08-31 00:00:00-04:00",
+              "Open": 36.16999816894531,
+              "High": 36.33000183105469,
+              "Low": 35.619998931884766,
+              "Close": 36.04999923706055,
+              "Adj Close": 36.04999923706055,
+              "Volume": 5778700,
+              "Dividends": 0.0,
+              "Stock Splits": 0.0
+            }
+          ]
+        }
+      ],
+      "dataset_rows": 177
+    },
+    {
+      "company": "Novartis",
+      "market_sources": [
+        {
+          "path": "YUKTHA_CLEAN_2026-09-07\\02_NON_INDIAN_COMPANIES\\Novartis\\02_MARKET_DATA\\Daily\\Novartis_daily.csv",
+          "rows": 3177,
+          "columns": [
+            "Date",
+            "Open",
+            "High",
+            "Low",
+            "Close",
+            "Adj_Close",
+            "Volume",
+            "Company",
+            "Country",
+            "Ticker"
+          ],
+          "first": [
+            {
+              "Date": "2013-12-31",
+              "Open": 71.881721496582,
+              "High": 72.0250930786132,
+              "Low": 71.7114715576171,
+              "Close": 72.0250930786132,
+              "Adj_Close": 45.2415542602539,
+              "Volume": 421178,
+              "Company": "Novartis",
+              "Country": "Switzerland",
+              "Ticker": "NVS"
+            }
+          ],
+          "last": [
+            {
+              "Date": "2026-08-19",
+              "Open": 156.289993286132,
+              "High": 160.809997558593,
+              "Low": 156.169998168945,
+              "Close": 160.309997558593,
+              "Adj_Close": 160.309997558593,
+              "Volume": 2400500,
+              "Company": "Novartis",
+              "Country": "Switzerland",
+              "Ticker": "NVS"
+            }
+          ]
+        },
+        {
+          "path": "YUKTHA_CLEAN_2026-09-07\\02_NON_INDIAN_COMPANIES\\Novartis\\02_MARKET_DATA\\Daily\\Novartis_NVS_daily.csv",
+          "rows": 7498,
+          "columns": [
+            "Date",
+            "Open",
+            "High",
+            "Low",
+            "Close",
+            "Adj Close",
+            "Volume",
+            "Dividends",
+            "Stock Splits"
+          ],
+          "first": [
+            {
+              "Date": "1996-11-07 00:00:00-05:00",
+              "Open": 26.65770530700684,
+              "High": 26.76971244812012,
+              "Low": 26.377687454223636,
+              "Close": 26.65770530700684,
+              "Adj Close": 11.683367729187012,
+              "Volume": 93521,
+              "Dividends": 0.0,
+              "Stock Splits": 0.0
+            }
+          ],
+          "last": [
+            {
+              "Date": "2026-08-31 00:00:00-04:00",
+              "Open": 152.60000610351562,
+              "High": 152.74000549316406,
+              "Low": 151.69000244140625,
+              "Close": 152.05999755859375,
+              "Adj Close": 152.05999755859375,
+              "Volume": 1286200,
+              "Dividends": 0.0,
+              "Stock Splits": 0.0
+            }
+          ]
+        }
+      ],
+      "dataset_rows": 118
+    },
+    {
+      "company": "Laboratorios_Rovi",
+      "market_sources": [],
+      "dataset_rows": 0
+    },
+    {
+      "company": "Fresenius_SE",
+      "market_sources": [
+        {
+          "path": "YUKTHA_CLEAN_2026-09-07\\02_NON_INDIAN_COMPANIES\\Fresenius_SE\\02_MARKET_DATA\\Daily\\Fresenius_SE_daily.csv",
+          "rows": 3209,
+          "columns": [
+            "Date",
+            "Open",
+            "High",
+            "Low",
+            "Close",
+            "Adj_Close",
+            "Volume",
+            "Company",
+            "Country",
+            "Ticker"
+          ],
+          "first": [
+            {
+              "Date": "2014-01-02",
+              "Open": 37.1484985351562,
+              "High": 37.1984062194824,
+              "Low": 36.8490486145019,
+              "Close": 36.9155921936035,
+              "Adj_Close": 29.9901828765869,
+              "Volume": 890972,
+              "Company": "Fresenius SE",
+              "Country": "Germany",
+              "Ticker": "FRE.DE"
+            }
+          ],
+          "last": [
+            {
+              "Date": "2026-08-20",
+              "Open": 46.75,
+              "High": 46.7999992370605,
+              "Low": 46.1150016784668,
+              "Close": 46.2050018310546,
+              "Adj_Close": 46.2050018310546,
+              "Volume": 79427,
+              "Company": "Fresenius SE",
+              "Country": "Germany",
+              "Ticker": "FRE.DE"
+            }
+          ]
+        },
+        {
+          "path": "YUKTHA_CLEAN_2026-09-07\\02_NON_INDIAN_COMPANIES\\Fresenius_SE\\02_MARKET_DATA\\Daily\\Fresenius_SE_FRE_DE_daily.csv",
+          "rows": 7114,
+          "columns": [
+            "Date",
+            "Open",
+            "High",
+            "Low",
+            "Close",
+            "Adj Close",
+            "Volume",
+            "Dividends",
+            "Stock Splits"
+          ],
+          "first": [
+            {
+              "Date": "1998-11-09 00:00:00+01:00",
+              "Open": 22.578901290893555,
+              "High": 23.73145294189453,
+              "Low": 22.578901290893555,
+              "Close": 23.34882164001465,
+              "Adj Close": 12.55869483947754,
+              "Volume": 7513,
+              "Dividends": 0.0,
+              "Stock Splits": 0.0
+            }
+          ],
+          "last": [
+            {
+              "Date": "2026-09-01 00:00:00+02:00",
+              "Open": 45.11000061035156,
+              "High": 45.619998931884766,
+              "Low": 45.040000915527344,
+              "Close": 45.31499862670898,
+              "Adj Close": 45.31499862670898,
+              "Volume": 112603,
+              "Dividends": 0.0,
+              "Stock Splits": 0.0
+            }
+          ]
+        }
+      ],
+      "dataset_rows": 110
+    },
+    {
+      "company": "Merck_&_Co",
+      "market_sources": [
+        {
+          "path": "YUKTHA_CLEAN_2026-09-07\\02_NON_INDIAN_COMPANIES\\Merck_&_Co\\02_MARKET_DATA\\Daily\\Merck_&_Co._daily.csv",
+          "rows": 3177,
+          "columns": [
+            "Date",
+            "Open",
+            "High",
+            "Low",
+            "Close",
+            "Adj_Close",
+            "Volume",
+            "Company",
+            "Country",
+            "Ticker"
+          ],
+          "first": [
+            {
+              "Date": "2014-01-02 05:00:00",
+              "Open": 47.59542083740234,
+              "High": 47.74809265136719,
+              "Low": 47.04198455810547,
+              "Close": 47.22328186035156,
+              "Adj_Close": 32.08517074584961,
+              "Volume": 8265052,
+              "Company": "Merck & Co.",
+              "Country": "United States",
+              "Ticker": "MRK"
+            }
+          ],
+          "last": [
+            {
+              "Date": "2026-08-20 04:00:00",
+              "Open": 150.7799987792969,
+              "High": 152.5149993896484,
+              "Low": 148.5160064697266,
+              "Close": 150.8329925537109,
+              "Adj_Close": 150.8329925537109,
+              "Volume": 10175031,
+              "Company": "Merck & Co.",
+              "Country": "United States",
+              "Ticker": "MRK"
+            }
+          ]
+        },
+        {
+          "path": "YUKTHA_CLEAN_2026-09-07\\02_NON_INDIAN_COMPANIES\\Merck_&_Co\\02_MARKET_DATA\\Daily\\Merck_&_Co._MRK_daily.csv",
+          "rows": 16273,
+          "columns": [
+            "Date",
+            "Open",
+            "High",
+            "Low",
+            "Close",
+            "Adj Close",
+            "Volume",
+            "Dividends",
+            "Stock Splits"
+          ],
+          "first": [
+            {
+              "Date": "1962-01-02 00:00:00-05:00",
+              "Open": 0.3931649923324585,
+              "High": 0.3970299959182739,
+              "Low": 0.3931649923324585,
+              "Close": 0.3953740000724792,
+              "Adj Close": 0.0632873177528381,
+              "Volume": 633830,
+              "Dividends": 0.0,
+              "Stock Splits": 0.0
+            }
+          ],
+          "last": [
+            {
+              "Date": "2026-08-31 00:00:00-04:00",
+              "Open": 147.0,
+              "High": 148.69000244140625,
+              "Low": 145.9499969482422,
+              "Close": 147.75999450683594,
+              "Adj Close": 147.75999450683594,
+              "Volume": 11124700,
+              "Dividends": 0.0,
+              "Stock Splits": 0.0
+            }
+          ]
+        }
+      ],
+      "dataset_rows": 257
+    },
+    {
+      "company": "Baxter_International",
+      "market_sources": [
+        {
+          "path": "YUKTHA_CLEAN_2026-09-07\\02_NON_INDIAN_COMPANIES\\Baxter_International\\02_MARKET_DATA\\Daily\\Baxter_International_BAX_daily.csv",
+          "rows": 11301,
+          "columns": [
+            "Date",
+            "Open",
+            "High",
+            "Low",
+            "Close",
+            "Adj Close",
+            "Volume",
+            "Dividends",
+            "Stock Splits"
+          ],
+          "first": [
+            {
+              "Date": "1981-10-27 00:00:00-05:00",
+              "Open": 3.8079309463500977,
+              "High": 3.885014057159424,
+              "Low": 3.8079309463500977,
+              "Close": 3.854181051254273,
+              "Adj Close": 1.3841372728347778,
+              "Volume": 3155664,
+              "Dividends": 0.0,
+              "Stock Splits": 0.0
+            }
+          ],
+          "last": [
+            {
+              "Date": "2026-08-31 00:00:00-04:00",
+              "Open": 25.90999984741211,
+              "High": 26.350000381469727,
+              "Low": 25.86000061035156,
+              "Close": 26.0,
+              "Adj Close": 26.0,
+              "Volume": 3991300,
+              "Dividends": 0.0,
+              "Stock Splits": 0.0
+            }
+          ]
+        },
+        {
+          "path": "YUKTHA_CLEAN_2026-09-07\\02_NON_INDIAN_COMPANIES\\Baxter_International\\02_MARKET_DATA\\Daily\\Baxter_International_daily.csv",
+          "rows": 3177,
+          "columns": [
+            "Date",
+            "Open",
+            "High",
+            "Low",
+            "Close",
+            "Adj_Close",
+            "Volume",
+            "Company",
+            "Country",
+            "Ticker"
+          ],
+          "first": [
+            {
+              "Date": "2013-12-31",
+              "Open": 37.6643142700195,
+              "High": 37.9196090698242,
+              "Low": 37.6208572387695,
+              "Close": 37.7783813476562,
+              "Adj_Close": 30.5626811981201,
+              "Volume": 3058822,
+              "Company": "Baxter International",
+              "Country": "United States",
+              "Ticker": "BAX"
+            }
+          ],
+          "last": [
+            {
+              "Date": "2026-08-19",
+              "Open": 26.0400009155273,
+              "High": 26.75,
+              "Low": 25.8700008392334,
+              "Close": 26.6399993896484,
+              "Adj_Close": 26.6399993896484,
+              "Volume": 5053200,
+              "Company": "Baxter International",
+              "Country": "United States",
+              "Ticker": "BAX"
+            }
+          ]
+        }
+      ],
+      "dataset_rows": 178
+    },
+    {
+      "company": "Viatris",
+      "market_sources": [
+        {
+          "path": "YUKTHA_CLEAN_2026-09-07\\02_NON_INDIAN_COMPANIES\\Viatris\\02_MARKET_DATA\\Daily\\Viatris_daily.csv",
+          "rows": 3177,
+          "columns": [
+            "Date",
+            "Open",
+            "High",
+            "Low",
+            "Close",
+            "Adj_Close",
+            "Volume",
+            "Company",
+            "Country",
+            "Ticker"
+          ],
+          "first": [
+            {
+              "Date": "2013-12-31",
+              "Open": 43.2599983215332,
+              "High": 43.5699996948242,
+              "Low": 42.9799995422363,
+              "Close": 43.4000015258789,
+              "Adj_Close": 34.9186630249023,
+              "Volume": 1930900,
+              "Company": "Viatris",
+              "Country": "United States",
+              "Ticker": "VTRS"
+            }
+          ],
+          "last": [
+            {
+              "Date": "2026-08-19",
+              "Open": 16.4200000762939,
+              "High": 16.579999923706,
+              "Low": 16.2299995422363,
+              "Close": 16.25,
+              "Adj_Close": 16.25,
+              "Volume": 5676800,
+              "Company": "Viatris",
+              "Country": "United States",
+              "Ticker": "VTRS"
+            }
+          ]
+        },
+        {
+          "path": "YUKTHA_CLEAN_2026-09-07\\02_NON_INDIAN_COMPANIES\\Viatris\\02_MARKET_DATA\\Daily\\Viatris_VTRS_daily.csv",
+          "rows": 11708,
+          "columns": [
+            "Date",
+            "Open",
+            "High",
+            "Low",
+            "Close",
+            "Adj Close",
+            "Volume",
+            "Dividends",
+            "Stock Splits"
+          ],
+          "first": [
+            {
+              "Date": "1980-03-17 00:00:00-05:00",
+              "Open": 1.444443941116333,
+              "High": 1.555556058883667,
+              "Low": 1.444443941116333,
+              "Close": 1.444443941116333,
+              "Adj Close": 0.9893521070480348,
+              "Volume": 2700,
+              "Dividends": 0.0,
+              "Stock Splits": 0.0
+            }
+          ],
+          "last": [
+            {
+              "Date": "2026-08-31 00:00:00-04:00",
+              "Open": 16.290000915527344,
+              "High": 16.579999923706055,
+              "Low": 16.1200008392334,
+              "Close": 16.510000228881836,
+              "Adj Close": 16.510000228881836,
+              "Volume": 12669000,
+              "Dividends": 0.0,
+              "Stock Splits": 0.0
+            }
+          ]
+        }
+      ],
+      "dataset_rows": 185
+    },
+    {
+      "company": "Jiangsu_Hengrui_Pharma",
+      "market_sources": [
+        {
+          "path": "YUKTHA_CLEAN_2026-09-07\\02_NON_INDIAN_COMPANIES\\Jiangsu_Hengrui_Pharma\\02_MARKET_DATA\\Daily\\Jiangsu_Hengrui_Pharma_600276_SS_daily.csv",
+          "rows": 6379,
+          "columns": [
+            "Date",
+            "Open",
+            "High",
+            "Low",
+            "Close",
+            "Adj Close",
+            "Volume",
+            "Dividends",
+            "Stock Splits"
+          ],
+          "first": [
+            {
+              "Date": "2000-10-18 00:00:00+08:00",
+              "Open": 0.5622140169143677,
+              "High": 0.5950520038604736,
+              "Low": 0.5542659759521484,
+              "Close": 0.5793650150299072,
+              "Adj Close": 0.5247049927711487,
+              "Volume": 1300123098,
+              "Dividends": 0.0,
+              "Stock Splits": 0.0
+            }
+          ],
+          "last": [
+            {
+              "Date": "2026-09-01 00:00:00+08:00",
+              "Open": 46.04999923706055,
+              "High": 46.400001525878906,
+              "Low": 45.900001525878906,
+              "Close": 46.22999954223633,
+              "Adj Close": 46.22999954223633,
+              "Volume": 46473969,
+              "Dividends": 0.0,
+              "Stock Splits": 0.0
+            }
+          ]
+        },
+        {
+          "path": "YUKTHA_CLEAN_2026-09-07\\02_NON_INDIAN_COMPANIES\\Jiangsu_Hengrui_Pharma\\02_MARKET_DATA\\Daily\\Jiangsu_Hengrui_Pharma_daily.csv",
+          "rows": 3070,
+          "columns": [
+            "Date",
+            "Open",
+            "High",
+            "Low",
+            "Close",
+            "Adj_Close",
+            "Volume",
+            "Company",
+            "Country",
+            "Ticker"
+          ],
+          "first": [
+            {
+              "Date": "2014-01-02",
+              "Open": 8.21265602111816,
+              "High": 8.58232307434082,
+              "Low": 8.19320011138916,
+              "Close": 8.44396781921386,
+              "Adj_Close": 8.14159679412841,
+              "Volume": 36239316,
+              "Company": "Jiangsu Hengrui Pharma",
+              "Country": "China",
+              "Ticker": "600276.SS"
+            }
+          ],
+          "last": [
+            {
+              "Date": "2026-08-20",
+              "Open": 51.0,
+              "High": 51.5299987792968,
+              "Low": 48.1599998474121,
+              "Close": 49.5,
+              "Adj_Close": 49.5,
+              "Volume": 238741624,
+              "Company": "Jiangsu Hengrui Pharma",
+              "Country": "China",
+              "Ticker": "600276.SS"
+            }
+          ]
+        }
+      ],
+      "dataset_rows": 102
+    },
+    {
+      "company": "Shanghai_Fosun_Pharma",
+      "market_sources": [
+        {
+          "path": "YUKTHA_CLEAN_2026-09-07\\02_NON_INDIAN_COMPANIES\\Shanghai_Fosun_Pharma\\02_MARKET_DATA\\Daily\\Shanghai Fosun Pharma_daily.csv",
+          "rows": 3111,
+          "columns": [
+            "Date",
+            "Open",
+            "High",
+            "Low",
+            "Close",
+            "Adj_Close",
+            "Volume",
+            "Company",
+            "Country",
+            "Ticker"
+          ],
+          "first": [
+            {
+              "Date": "2014-01-02",
+              "Open": 23.5,
+              "High": 23.5,
+              "Low": 22.6499996185302,
+              "Close": 22.9500007629394,
+              "Adj_Close": 18.3961753845214,
+              "Volume": 1978500,
+              "Company": "Shanghai Fosun Pharma",
+              "Country": "China",
+              "Ticker": "2196.HK"
+            }
+          ],
+          "last": [
+            {
+              "Date": "2026-08-20",
+              "Open": 17.4300003051757,
+              "High": 18.4899997711181,
+              "Low": 17.4200000762939,
+              "Close": 17.8999996185302,
+              "Adj_Close": 17.8999996185302,
+              "Volume": 15676935,
+              "Company": "Shanghai Fosun Pharma",
+              "Country": "China",
+              "Ticker": "2196.HK"
+            }
+          ]
+        },
+        {
+          "path": "YUKTHA_CLEAN_2026-09-07\\02_NON_INDIAN_COMPANIES\\Shanghai_Fosun_Pharma\\02_MARKET_DATA\\Daily\\Shanghai_Fosun_Pharma_600196_SS_daily.csv",
+          "rows": 6952,
+          "columns": [
+            "Date",
+            "Open",
+            "High",
+            "Low",
+            "Close",
+            "Adj Close",
+            "Volume",
+            "Dividends",
+            "Stock Splits"
+          ],
+          "first": [
+            {
+              "Date": "1998-08-07 00:00:00+08:00",
+              "Open": 2.73942494392395,
+              "High": 2.7942140102386475,
+              "Low": 2.586016893386841,
+              "Close": 2.706552028656006,
+              "Adj Close": 1.8811408281326292,
+              "Volume": 309480191,
+              "Dividends": 0.0,
+              "Stock Splits": 0.0
+            }
+          ],
+          "last": [
+            {
+              "Date": "2026-09-01 00:00:00+08:00",
+              "Open": 22.31999969482422,
+              "High": 22.57999992370605,
+              "Low": 22.309999465942383,
+              "Close": 22.5,
+              "Adj Close": 22.5,
+              "Volume": 13146786,
+              "Dividends": 0.0,
+              "Stock Splits": 0.0
+            }
+          ]
+        }
+      ],
+      "dataset_rows": 111
+    },
+    {
+      "company": "Zhejiang_Hisun_Pharma",
+      "market_sources": [
+        {
+          "path": "YUKTHA_CLEAN_2026-09-07\\02_NON_INDIAN_COMPANIES\\Zhejiang_Hisun_Pharma\\02_MARKET_DATA\\Daily\\Zhejiang Hisun Pharma_daily.csv",
+          "rows": 3070,
+          "columns": [
+            "Date",
+            "Open",
+            "High",
+            "Low",
+            "Close",
+            "Adj_Close",
+            "Volume",
+            "Company",
+            "Country",
+            "Ticker"
+          ],
+          "first": [
+            {
+              "Date": "2014-01-02",
+              "Open": 14.8000001907348,
+              "High": 15.25,
+              "Low": 14.7100000381469,
+              "Close": 15.1499996185302,
+              "Adj_Close": 13.6989097595214,
+              "Volume": 13828024,
+              "Company": "Zhejiang Hisun Pharma",
+              "Country": "China",
+              "Ticker": "600267.SS"
+            }
+          ],
+          "last": [
+            {
+              "Date": "2026-08-20",
+              "Open": 14.25,
+              "High": 14.329999923706,
+              "Low": 13.7299995422363,
+              "Close": 14.0200004577636,
+              "Adj_Close": 14.0200004577636,
+              "Volume": 68594594,
+              "Company": "Zhejiang Hisun Pharma",
+              "Country": "China",
+              "Ticker": "600267.SS"
+            }
+          ]
+        },
+        {
+          "path": "YUKTHA_CLEAN_2026-09-07\\02_NON_INDIAN_COMPANIES\\Zhejiang_Hisun_Pharma\\02_MARKET_DATA\\Daily\\Zhejiang_Hisun_Pharma_600267_SS_daily.csv",
+          "rows": 6440,
+          "columns": [
+            "Date",
+            "Open",
+            "High",
+            "Low",
+            "Close",
+            "Adj Close",
+            "Volume",
+            "Dividends",
+            "Stock Splits"
+          ],
+          "first": [
+            {
+              "Date": "2000-07-25 00:00:00+08:00",
+              "Open": 4.323710918426514,
+              "High": 4.438015937805176,
+              "Low": 4.143143177032471,
+              "Close": 4.350216865539551,
+              "Adj Close": 3.568117141723633,
+              "Volume": 142830245,
+              "Dividends": 0.0,
+              "Stock Splits": 0.0
+            }
+          ],
+          "last": [
+            {
+              "Date": "2026-09-01 00:00:00+08:00",
+              "Open": 11.949999809265137,
+              "High": 12.050000190734863,
+              "Low": 11.859999656677246,
+              "Close": 12.010000228881836,
+              "Adj Close": 12.010000228881836,
+              "Volume": 22251168,
+              "Dividends": 0.0,
+              "Stock Splits": 0.0
+            }
+          ]
+        }
+      ],
+      "dataset_rows": 103
+    },
+    {
+      "company": "Pfizer",
+      "market_sources": [
+        {
+          "path": "YUKTHA_CLEAN_2026-09-07\\02_NON_INDIAN_COMPANIES\\Pfizer\\02_MARKET_DATA\\Daily\\Pfizer_daily.csv",
+          "rows": 3177,
+          "columns": [
+            "Date",
+            "Open",
+            "High",
+            "Low",
+            "Close",
+            "Adj_Close",
+            "Volume",
+            "Company",
+            "Country",
+            "Ticker"
+          ],
+          "first": [
+            {
+              "Date": "2014-01-02 05:00:00",
+              "Open": 28.9089183807373,
+              "High": 29.03225708007812,
+              "Low": 28.77609062194824,
+              "Close": 28.8994312286377,
+              "Adj_Close": 16.69078826904297,
+              "Volume": 18366266,
+              "Company": "Pfizer",
+              "Country": "United States",
+              "Ticker": "PFE"
+            }
+          ],
+          "last": [
+            {
+              "Date": "2026-08-20 04:00:00",
+              "Open": 28.0,
+              "High": 28.1599006652832,
+              "Low": 27.64500045776367,
+              "Close": 28.0,
+              "Adj_Close": 28.0,
+              "Volume": 19286787,
+              "Company": "Pfizer",
+              "Country": "United States",
+              "Ticker": "PFE"
+            }
+          ]
+        },
+        {
+          "path": "YUKTHA_CLEAN_2026-09-07\\02_NON_INDIAN_COMPANIES\\Pfizer\\02_MARKET_DATA\\Daily\\Pfizer_PFE_daily.csv",
+          "rows": 13674,
+          "columns": [
+            "Date",
+            "Open",
+            "High",
+            "Low",
+            "Close",
+            "Adj Close",
+            "Volume",
+            "Dividends",
+            "Stock Splits"
+          ],
+          "first": [
+            {
+              "Date": "1972-06-01 00:00:00-04:00",
+              "Open": 0.8029929995536804,
+              "High": 0.8153460025787354,
+              "Low": 0.8029929995536804,
+              "Close": 0.8153460025787354,
+              "Adj Close": 0.1411517709493637,
+              "Volume": 2458771,
+              "Dividends": 0.0,
+              "Stock Splits": 0.0
+            }
+          ],
+          "last": [
+            {
+              "Date": "2026-08-31 00:00:00-04:00",
+              "Open": 27.850000381469727,
+              "High": 28.700000762939453,
+              "Low": 27.63999938964844,
+              "Close": 28.459999084472656,
+              "Adj Close": 28.459999084472656,
+              "Volume": 45911500,
+              "Dividends": 0.0,
+              "Stock Splits": 0.0
+            }
+          ]
+        }
+      ],
+      "dataset_rows": 216
+    },
+    {
+      "company": "Sanofi",
+      "market_sources": [
+        {
+          "path": "YUKTHA_CLEAN_2026-09-07\\02_NON_INDIAN_COMPANIES\\Sanofi\\02_MARKET_DATA\\Daily\\Sanofi_daily.csv",
+          "rows": 3234,
+          "columns": [
+            "Date",
+            "Open",
+            "High",
+            "Low",
+            "Close",
+            "Adj_Close",
+            "Volume",
+            "Company",
+            "Country",
+            "Ticker"
+          ],
+          "first": [
+            {
+              "Date": "2014-01-01 23:00:00",
+              "Open": 77.08885955810547,
+              "High": 77.27783203125,
+              "Low": 74.74168395996094,
+              "Close": 74.8113021850586,
+              "Adj_Close": 44.74545288085938,
+              "Volume": 2684652,
+              "Company": "Sanofi",
+              "Country": "France",
+              "Ticker": "SNY"
+            }
+          ],
+          "last": [
+            {
+              "Date": "2026-08-19 22:00:00",
+              "Open": 78.3499984741211,
+              "High": 78.66999816894531,
+              "Low": 77.2699966430664,
+              "Close": 77.79000091552734,
+              "Adj_Close": 77.79000091552734,
+              "Volume": 1406571,
+              "Company": "Sanofi",
+              "Country": "France",
+              "Ticker": "SNY"
+            }
+          ]
+        },
+        {
+          "path": "YUKTHA_CLEAN_2026-09-07\\02_NON_INDIAN_COMPANIES\\Sanofi\\02_MARKET_DATA\\Daily\\Sanofi_SNY_daily.csv",
+          "rows": 6080,
+          "columns": [
+            "Date",
+            "Open",
+            "High",
+            "Low",
+            "Close",
+            "Adj Close",
+            "Volume",
+            "Dividends",
+            "Stock Splits"
+          ],
+          "first": [
+            {
+              "Date": "2002-07-01 00:00:00-04:00",
+              "Open": 30.5,
+              "High": 30.540000915527344,
+              "Low": 29.700000762939453,
+              "Close": 29.770000457763672,
+              "Adj Close": 12.208902359008787,
+              "Volume": 196800,
+              "Dividends": 0.0,
+              "Stock Splits": 0.0
+            }
+          ],
+          "last": [
+            {
+              "Date": "2026-08-31 00:00:00-04:00",
+              "Open": 44.59000015258789,
+              "High": 44.68999862670898,
+              "Low": 44.2599983215332,
+              "Close": 44.36000061035156,
+              "Adj Close": 44.36000061035156,
+              "Volume": 2344900,
+              "Dividends": 0.0,
+              "Stock Splits": 0.0
+            }
+          ]
+        }
+      ],
+      "dataset_rows": 49
+    },
+    {
+      "company": "Formycon",
+      "market_sources": [
+        {
+          "path": "YUKTHA_CLEAN_2026-09-07\\02_NON_INDIAN_COMPANIES\\Formycon\\02_MARKET_DATA\\Daily\\Formycon_daily.csv",
+          "rows": 3209,
+          "columns": [
+            "Date",
+            "Open",
+            "High",
+            "Low",
+            "Close",
+            "Adj_Close",
+            "Volume",
+            "Company",
+            "Country",
+            "Ticker"
+          ],
+          "first": [
+            {
+              "Date": "2014-01-02",
+              "Open": 7.55000019073486,
+              "High": 7.58900022506713,
+              "Low": 7.48000001907348,
+              "Close": 7.48000001907348,
+              "Adj_Close": 7.48000001907348,
+              "Volume": 8075,
+              "Company": "Formycon",
+              "Country": "Germany",
+              "Ticker": "FYB.DE"
+            }
+          ],
+          "last": [
+            {
+              "Date": "2026-08-20",
+              "Open": 18.579999923706,
+              "High": 18.579999923706,
+              "Low": 18.0200004577636,
+              "Close": 18.579999923706,
+              "Adj_Close": 18.579999923706,
+              "Volume": 2019,
+              "Company": "Formycon",
+              "Country": "Germany",
+              "Ticker": "FYB.DE"
+            }
+          ]
+        },
+        {
+          "path": "YUKTHA_CLEAN_2026-09-07\\02_NON_INDIAN_COMPANIES\\Formycon\\02_MARKET_DATA\\Daily\\Formycon_FYB_DE_daily.csv",
+          "rows": 3977,
+          "columns": [
+            "Date",
+            "Open",
+            "High",
+            "Low",
+            "Close",
+            "Adj Close",
+            "Volume",
+            "Dividends",
+            "Stock Splits"
+          ],
+          "first": [
+            {
+              "Date": "2011-01-04 00:00:00+01:00",
+              "Open": 8.806854248046875,
+              "High": 8.915702819824219,
+              "Low": 8.707900047302246,
+              "Close": 8.915702819824219,
+              "Adj Close": 8.915702819824219,
+              "Volume": 1395,
+              "Dividends": 0.0,
+              "Stock Splits": 0.0
+            }
+          ],
+          "last": [
+            {
+              "Date": "2026-09-01 00:00:00+02:00",
+              "Open": 19.5,
+              "High": 19.5,
+              "Low": 19.100000381469727,
+              "Close": 19.299999237060547,
+              "Adj Close": 19.299999237060547,
+              "Volume": 688,
+              "Dividends": 0.0,
+              "Stock Splits": 0.0
+            }
+          ]
+        }
+      ],
+      "dataset_rows": 61
+    }
+  ]
+}

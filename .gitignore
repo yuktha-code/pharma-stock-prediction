@@ -1,0 +1,13 @@
+﻿# Raw and generated files
+*.csv
+*.xlsx
+*.xls
+*.zip
+*.msi
+*.dll
+*.exe
+__pycache__/
+friend_package/
+libreoffice/
+lo_profile*/
+deps/
