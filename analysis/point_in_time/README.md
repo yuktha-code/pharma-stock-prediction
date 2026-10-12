@@ -1,6 +1,6 @@
 # Point-in-Time Financial ML and Walk-Forward Validation
 
-**Status: methodological extension under review. Not yet an empirical thesis result.**
+**Status: implemented and CI-validated research methodology. No empirical thesis model result has been claimed.**
 
 This module adds an independently testable data-availability ledger and a chronological baseline engine to the pharmaceutical equity-direction thesis. It is built to prevent publication-timing leakage and stale-label leakage; it does **not** solve issues in unavailable raw data or invent model performance.
 
