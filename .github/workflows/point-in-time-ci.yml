@@ -1,0 +1,35 @@
+name: Thesis point-in-time and walk-forward integrity checks
+on:
+  push:
+    paths:
+      - 'analysis/point_in_time/**'
+      - 'analysis/__init__.py'
+      - '.github/workflows/point-in-time-ci.yml'
+  pull_request:
+    paths:
+      - 'analysis/point_in_time/**'
+      - 'analysis/__init__.py'
+      - '.github/workflows/point-in-time-ci.yml'
+  workflow_dispatch:
+
+jobs:
+  leakage-and-baseline-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install research dependencies
+        run: python -m pip install -r analysis/point_in_time/requirements.txt
+      - name: Point-in-time and walk-forward unit tests
+        run: python -m unittest discover -s analysis/point_in_time/tests -p 'test_*.py' -v
+      - name: Deterministic synthetic smoke test, explicitly not thesis data
+        run: |
+          python -m analysis.point_in_time.synthetic_demo --out /tmp/thesis_synthetic
+          python -m analysis.point_in_time.run \
+            --features /tmp/thesis_synthetic/synthetic_features.csv \
+            --labels /tmp/thesis_synthetic/synthetic_labels.csv \
+            --out /tmp/thesis_synthetic/run \
+            --min-history 4
+          test -s /tmp/thesis_synthetic/run/fold_metrics.csv
