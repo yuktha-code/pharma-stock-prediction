@@ -237,12 +237,18 @@ def audit_archive(
 
     with zipfile.ZipFile(archive) as zf:
         traverse(zf,archive.name,0)
+    # Identify the exact source snapshot without exposing any contained records.
+    digest=hashlib.sha256()
+    with archive.open("rb") as stream:
+        for chunk in iter(lambda: stream.read(1024 * 1024), b""):
+            digest.update(chunk)
     candidates=sorted(records, key=lambda r: (-r.get("score",0),r.get("path","")))[:125]
     classifications=dict(Counter(r.get("classification","unknown") for r in records))
     info={
         "generated_utc":datetime.now(timezone.utc).isoformat(),
         "source_archive_name":archive.name,
         "source_archive_size_bytes":archive.stat().st_size,
+        "source_archive_sha256":digest.hexdigest(),
         "archives_inspected_without_extraction":True,
         "is_empirical_thesis_result":False,
         "is_source_verification":False,
