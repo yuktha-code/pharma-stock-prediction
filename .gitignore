@@ -11,3 +11,8 @@ friend_package/
 libreoffice/
 lo_profile*/
 deps/
+
+# Private licensed S&P and thesis panel inputs and generated evaluation outputs
+analysis/point_in_time/private_data/
+analysis/point_in_time/outputs/
+analysis/point_in_time/generated_*/
